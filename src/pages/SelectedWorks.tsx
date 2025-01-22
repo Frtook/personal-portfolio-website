@@ -1,12 +1,16 @@
 import Button from "../components/Button";
-
+//images
+import img1 from "../assets/images/img1.webp";
+import img2 from "../assets/images/img2.webp";
+import img3 from "../assets/images/img3.webp";
+import img4 from "../assets/images/img4.webp";
 export default function SelectedWorks() {
   return (
     <main>
       <p className="text-4xl font-bold">Seleced Works</p>
       <div className="grid grid-cols-1 gap-5 mt-5 lg:grid-cols-2">
         <div className="p-5 bg-gray-100 rounded-xl">
-          <img src="src/assets/images/img1.webp" alt="" />
+          <img src={img1} alt="" />
           <div className="flex flex-col gap-5 mt-5">
             <p className="text-3xl font-bold">Struktura</p>
             <p className="text-2xl">Consturction Company</p>
@@ -19,7 +23,7 @@ export default function SelectedWorks() {
           </div>
         </div>
         <div className="p-5 bg-gray-100 rounded-xl">
-          <img src="../assets/images/img1.webp" alt="" />
+          <img src={img2} alt="" />
           <div className="flex flex-col gap-5 mt-5">
             <p className="text-3xl font-bold">Struktura</p>
             <p className="text-2xl">Consturction Company</p>
@@ -32,7 +36,7 @@ export default function SelectedWorks() {
           </div>
         </div>
         <div className="p-5 bg-gray-100 rounded-xl">
-          <img src="../assets/images/img3.webp" alt="" />
+          <img src={img3} alt="" />
           <div className="flex flex-col gap-5 mt-5">
             <p className="text-3xl font-bold">Struktura</p>
             <p className="text-2xl">Consturction Company</p>
@@ -45,7 +49,7 @@ export default function SelectedWorks() {
           </div>
         </div>
         <div className="p-5 bg-gray-100 rounded-xl">
-          <img src="../assets/images/img4.webp" alt="" />
+          <img src={img4} alt="" />
           <div className="flex flex-col gap-5 mt-5">
             <p className="text-3xl font-bold">Struktura</p>
             <p className="text-2xl">Consturction Company</p>
