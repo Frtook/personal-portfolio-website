@@ -19,7 +19,7 @@ export default function SelectedWorks() {
           </div>
         </div>
         <div className="p-5 bg-gray-100 rounded-xl">
-          <img src="src/assets/images/img2.webp" alt="" />
+          <img src="../assets/images/img1.webp" alt="" />
           <div className="flex flex-col gap-5 mt-5">
             <p className="text-3xl font-bold">Struktura</p>
             <p className="text-2xl">Consturction Company</p>
@@ -32,7 +32,7 @@ export default function SelectedWorks() {
           </div>
         </div>
         <div className="p-5 bg-gray-100 rounded-xl">
-          <img src="src/assets/images/img3.webp" alt="" />
+          <img src="../assets/images/img3.webp" alt="" />
           <div className="flex flex-col gap-5 mt-5">
             <p className="text-3xl font-bold">Struktura</p>
             <p className="text-2xl">Consturction Company</p>
@@ -45,7 +45,7 @@ export default function SelectedWorks() {
           </div>
         </div>
         <div className="p-5 bg-gray-100 rounded-xl">
-          <img src="src/assets/images/img4.webp" alt="" />
+          <img src="../assets/images/img4.webp" alt="" />
           <div className="flex flex-col gap-5 mt-5">
             <p className="text-3xl font-bold">Struktura</p>
             <p className="text-2xl">Consturction Company</p>

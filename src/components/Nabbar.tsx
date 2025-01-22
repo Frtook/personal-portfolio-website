@@ -17,7 +17,7 @@ export default function Nabbar() {
     <main className="flex items-center justify-between m-auto">
       <img
         className="size-12 md:size-10"
-        src="src/assets/react.svg"
+        src="../assets/react.svg"
         alt="logo"
       />
       <div className="flex flex-col items-center px-10 mr-auto text-2xl lg:hidden">
