@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Button from "./Button";
 import { FaBars } from "react-icons/fa";
+// images
+import logo from "../assets/react.svg";
 export default function Nabbar() {
   const [time, setTime] = useState("");
   const [mobile, setMobile] = useState(false);
@@ -15,11 +17,7 @@ export default function Nabbar() {
 
   return (
     <main className="flex items-center justify-between m-auto">
-      <img
-        className="size-12 md:size-10"
-        src="../assets/react.svg"
-        alt="logo"
-      />
+      <img className="size-12 md:size-10" src={logo} alt="logo" />
       <div className="flex flex-col items-center px-10 mr-auto text-2xl lg:hidden">
         <p className="text-gray-500">Yemen, Mukallah</p>
         <p>{time}</p>
